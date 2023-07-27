@@ -122,23 +122,3 @@ ul .speech.active{
   opacity: 0.7;
   pointer-events: none;
 }
-
-
-/* .author {
-  position: relative;
-  text-align: center;
-  padding: 10px;
-}
-
-.author-photo {
-  background-size: cover;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin: 0 auto 10px;
-}
-
-.name {
-  font-size: 20px;
-  font-weight: bold;
-} */
