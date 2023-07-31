@@ -1,4 +1,4 @@
-/* Import Google Font - Poppins */
+/* Importing Google Font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -123,10 +123,7 @@ ul .speech.active{
   pointer-events: none;
 }
 
-
-
-
-/* Add the following CSS to your style.css file */
+/* For Author part */
 .author {
   display: flex;
   align-items: center;

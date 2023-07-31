@@ -19,7 +19,7 @@ function randomQuote() {
   fetch("https://type.fit/api/quotes")
     .then(response => response.json())
     .then(data => {
-      // Choose a random quote from the array of quotes
+      //For-  Choose a random quote from the array of quotes
       const randomIndex = Math.floor(Math.random() * data.length);
       const quote = data[randomIndex].text;
       const author = data[randomIndex].author || "Unknown";
@@ -59,7 +59,7 @@ copyBtn.addEventListener("click", () => {
     });
 });
 
-// Load initial quote on page load
+// For - Load initial quote on page load
 randomQuote();
 
 
