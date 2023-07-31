@@ -16,7 +16,7 @@ function randomQuote() {
   quoteBtn.classList.add("loading");
   quoteBtn.innerText = "Loading Quote...";
 
-  fetch("https://type.fit/api/quotes")
+  fetch("https://type.fit/api/quotes") // For fetching the Random quotes --
     .then(response => response.json())
     .then(data => {
       //For-  Choose a random quote from the array of quotes
@@ -59,7 +59,6 @@ copyBtn.addEventListener("click", () => {
     });
 });
 
-// For - Load initial quote on page load
 randomQuote();
 
 
