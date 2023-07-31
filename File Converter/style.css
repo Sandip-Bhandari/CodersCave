@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  display:contents flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width:auto;
+  background-image: url();
+}
+
+h1 {
+  color: #007bff;
+  margin-top: 30px;
+}
+
+
+.container {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fdefef;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"], select, button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #0d0808;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #f2efef;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: hsl(146, 14%, 90%) 4px 4px 0px;
+  transition: transform 200ms, box-shadow 200ms;
+}
+
+button:active{
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #094c66 0 0 0 ;
+}
+
+button:hover {
+  background-color: #0ab51c;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Result section */
+#result {
+  margin-top: 20px;
+  display: none;
+  text-align: left; /* To align the text to the left */
+}
+
+h2 {
+  color: #eef2f6;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  resize: none;
+  border: 1px solid #f2eaea85;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Center the result section horizontally */
+@media only screen and (min-width: 400px) {
+  #result {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+}
+
+

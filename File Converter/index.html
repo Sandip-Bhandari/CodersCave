@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Converter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>File Converter App</h1>
+    <div class="container">
+        <input type="file" id="inputFile">
+        <select id="outputFormat">
+            <option value="jpg">JPG</option>
+            <option value="png">PNG</option>
+            <option value="pdf">PDF</option>
+            <option value="gif">GIF</option>
+            <option value="txt">TXT</option>
+        </select>
+        <button onclick="convertFile()">Convert</button>
+        <a id="downloadLink" style="display: none;"></a>
+
+        <!-- Added result section -->
+        <div id="result" style="display: none;">
+            <h2>Converted Content</h2>
+            <textarea id="convertedContent" readonly></textarea>
+        </div>
+    </div>
+
+    <!-- Load PDF.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
