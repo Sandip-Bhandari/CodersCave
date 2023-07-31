@@ -1,4 +1,5 @@
 # CodersCave # Quote generator
+
 index.html:
 This HTML file represents a web page for a "Quote of the Day" generator. The page contains a header, a content area with a quote and author section, and buttons
 to perform various actions. The layout is designed using a wrapper div with specific styles. The quote and author sections are enclosed within div elements with
