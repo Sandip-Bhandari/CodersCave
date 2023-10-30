@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Pixelify+Sans&family=Roboto&family=Sofia+Sans+Condensed:wght@1&display=swap');
+
+
+
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-corner{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(110, 4, 4, 0.656);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+}
+
+
+
+
+.navbar{
+    display:flex;
+    position: fixed;
+    z-index: 3;
+    min-width: 100vw;
+    padding: 10px;
+    background-color: black;
+    justify-content: space-between;
+    font-family: 'Roboto',sans-serif;
+}
+
+.navbar>*{
+    background-color: transparent;
+}
+
+.navbar li{
+    background-color: transparent;
+}
+
+.navbar img{
+    height: 50px;
+}
+
+
+
+
+
+
+.navbar-list{
+    list-style-type: none;
+    top: 10px;
+    right: 5vw;
+    position: relative;
+    display: inline;
+    
+}
+
+.navbar-list img{
+    background-color: transparent;
+}
+
+.navbar-list li{
+    display: inline;
+    padding: 20px;
+}
+
+.navbar-list p{
+    background-color: transparent;
+    display: inline;
+    position: absolute;
+    top:15px;
+}
+
+.main{
+    margin: 100px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-family:'Roboto',sans-serif ;
+}
+
+.banner{
+   position: relative;
+   background-image: url("../pics/MoneyHeist.jpg");
+   background-size: cover;
+   height: 100vh; 
+}
+
+.banner-play{
+    position: relative;
+    top:85vh;
+    margin: 30px;
+    left:30px;
+    color: #000;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    padding:10px 30px;
+    border-radius: 0.3rem;
+}
+
+.banner-play:hover{
+    background-color: rgba(255, 255, 255, 0.664);
+    cursor: pointer;
+}
+
+.banner-info{
+    position: relative;
+    top:85vh;
+    margin: 30px;
+    left:30px;
+    color: #ffffff;
+    font-size: 30px;
+    background-color: rgba(109, 109, 110, 0.7);
+    padding:10px 30px;
+    border-radius: 0.3rem;
+}
+
+.banner-info:hover{
+    background-color:rgba(109, 109, 110, 0.483);
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:70px;
+}
+
+.movie-strip{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.movie-strip-last img{
+    height: 300px;
+}
+
+.movie-strip h1{
+    margin-left: 20px;
+}
+
+.movie-strip h1 img{
+    position: relative;
+    height: 30px;
+    top:7px;
+}
+.movies{
+    display: flex;
+    justify-content: center;
+    gap:15px
+}
+
+.movie-strip img{
+    transition:transform 0.3s;
+}
+
+.movie-strip img:hover{
+    
+    transition:ease-in-out transform 0.3s;
+    transform: scale(1.4);
+}
+
+.movie-strip-last h1{
+    margin: 0 0 20px 20px;
+}
+
+.movie-strip-last img{
+    transition:transform 0.3s;
+}
+
+.movie-strip-last img:hover{
+    
+    transition:transform 0.3s;
+    transform: scale(1.4);
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-wrap{
+    padding: 200px 50px 50px 50px;
+    width: auto;
+    gap: 300px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 17px;
+    
+}
+
+.socials ul li{
+    display: inline;
+    padding: 10px 5px;
+}
+
+
+
+.links{
+    display: flex;
+    gap:20px;
+    margin: 50px 10px;
+}
+
+.links ul li{
+    margin: 10px;
+    color: #7c7c7c;
+}
+
+.links ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.links ul{
+    list-style-type:none ;
+}
+
+.footer a{
+    background-color: transparent;
+    margin: 50px 20px;
+    padding: 10px ;
+    color: #7c7c7c;
+    border: 1px solid #7c7c7c;
+}
+
+.footer a:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+.footer p{
+    margin: 50px 10px;
+    color: #7c7c7c;
+}
+
+.socials img{
+    height: 60px;
+    margin: 20px;
+}
+.category-list{
+    list-style-type: none;
+    top: 20px;
+    position: relative;
+    padding-right: 300px;
+    display: inline;
+    padding-left: 10px;
+    
+}
+
+.category-list li{
+    display: inline;
+    padding: 20px;
+}
+
